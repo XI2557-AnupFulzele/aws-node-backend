@@ -1,0 +1,30 @@
+{
+  "name": "aws-node-backed",
+  "version": "1.0.0",
+  "description": "This is simple node with db",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjayrajput54/aws-node-backend.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "sanjay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanjayrajput54/aws-node-backend/issues"
+  },
+  "homepage": "https://github.com/sanjayrajput54/aws-node-backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1452.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
