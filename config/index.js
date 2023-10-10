@@ -4,7 +4,9 @@ var instance = null;
 const aws_remote_config = {
     accessKeyId: process.env["access-key"],
     secretAccessKey: process.env["access-secret"],
-    region: 'us-east-1',
+    // accessKeyId: "AKIA2VTRLMDMRZZC2TUK",
+    // secretAccessKey: "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",
+    region: 'ap-south-1',
   }
 module.exports = {
     aws_table_name: 'aws-tbl',
