@@ -4,8 +4,6 @@ var instance = null;
 const aws_remote_config = {
     accessKeyId: process.env["access-key"],
     secretAccessKey: process.env["access-secret"],
-    // accessKeyId: "AKIA2VTRLMDMRZZC2TUK",
-    // secretAccessKey: "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",
     region: 'ap-south-1',
   }
 module.exports = {
